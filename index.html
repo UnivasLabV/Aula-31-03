@@ -4,6 +4,11 @@
 <meta charset="UTF-8" />
 <title>CSS FORM LOGIN</title>
 
+    <link rel=stylesheet href="css/main.css">
+    <link rel="stylesheet" href="css/t1/style.css" title="Theme 1">
+    <link rel="alternate stylesheet" href="css/t2/style.css" title="Theme 2">
+    
+    
 </head>
 <body>
     
@@ -14,16 +19,21 @@
     
         <label>
             Username
-            <input type = "text" id="username" />
+            <input class = "field" type = "text" id="username" />
         </label>
         
          <label>
             Password
-            <input type = "text" id="password" />
+            <input class = "field" type = "text" id="password" />
         </label>
         
         <label>
-            <input type = "submit" value="Sign in" />
+        <input type="checkbox" />
+        Remember me
+        </label>
+        
+        <label>
+            <input class = "button" type = "submit" value="Sign in" />
         </label>
         
                </fieldset>
